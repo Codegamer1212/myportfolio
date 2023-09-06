@@ -1,0 +1,9 @@
+@extends('layouts.app')
+    @section('content')
+    @include('layout.about')
+	@include('layout.resume')
+	@include('layout.service')
+	@include('layout.project')
+	@include('layout.hireme')
+	@include('layout.contact')	
+    @endsection
